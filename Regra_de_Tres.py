@@ -1,0 +1,13 @@
+print('='*31)
+print('=  FAÇA AQUI SUA REGRA DE 3!  =')
+print('='*31)
+print(' Se...\n    A == B \n    Y == ??')
+A = float(input('  Digite o valor de A: '))
+B = float(input('  Digite o valor de B: '))
+Y = float(input('  Digite o valor de Y: '))
+print('   {} == {}'.format(A, B))
+print('   {} == X'.format(Y))
+X = (Y*B)/A
+print('   X é igual a {}!'.format(X))
+print()
+input('Aperte ENTER para sair.')
