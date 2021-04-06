@@ -1,0 +1,6 @@
+nome = input('Digite seu nome completo: ')
+e1 = nome.find(' ')
+e2 = nome.split()
+ln = len(e2)
+print('Primeiro nome: {}'.format(nome[0:e1]))
+print('Último nome: {}'.format(e2[ln-1]))
