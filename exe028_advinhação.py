@@ -1,9 +1,12 @@
 from random import randint
-print('Descobra o número secreto!')
+from time import sleep
+print('Descubra o número secreto!')
 r = randint(1, 5)
 c = 0
 while c != 'N':
     n = int(input('Digite um número de 1 à 5: '))
+    print('...')
+    sleep(1)
     if n == r:
         print('=== Parabéns, você acertou! ===')
     else:
